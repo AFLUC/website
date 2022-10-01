@@ -168,6 +168,7 @@ body {
 
 .section-heading img {
   margin: 20px auto;
+  vertical-align: middle;
 }
 
 .dark-bg h2 {
