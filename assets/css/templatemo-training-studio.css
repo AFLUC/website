@@ -168,7 +168,6 @@ body {
 
 .section-heading img {
   margin: 20px auto;
-  vertical-align: middle;
 }
 
 .dark-bg h2 {
@@ -263,6 +262,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  vertical-align: middle;
 }
 
 .header-area .main-nav .logo em {
