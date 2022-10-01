@@ -188,6 +188,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   transition: all .3s;
+  margin-right: 10px;
 }
 
 .main-button a:hover {
@@ -627,6 +628,15 @@ banner
     top: 0;
     left: 0;
     bottom: 7px;
+    width: 100%;
+}
+
+.image-overlay {
+    position: absolute;
+    background-color: rgba(35,45,57,0.8);
+    top: 0;
+    left: 0;
+    bottom: 0;
     width: 100%;
 }
 
