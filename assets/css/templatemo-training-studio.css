@@ -189,6 +189,7 @@ body {
   text-transform: uppercase;
   transition: all .3s;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .main-button a:hover {
@@ -693,6 +694,7 @@ features
 .feature-item .left-icon img {
   float: left;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .feature-item .right-content {
