@@ -1036,6 +1036,11 @@ contact
 --------------------------------------------- 
 */
 
+.contactez-nous {
+  text-align: center;
+  font-size:20px;
+}
+
 #contact-us {
   margin-top: 140px;
 }
