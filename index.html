@@ -26,6 +26,26 @@ https://templatemo.com/tm-548-training-studio
 
     <link rel="icon" type="image/png" href="assets/images/logo-original.png">
 
+
+<meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="manifest" href="/manifest.json">
+
+    <script>
+      if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+    .then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }).catch(function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+}
+    </script>
+
+
     </head>
     
     <body>
