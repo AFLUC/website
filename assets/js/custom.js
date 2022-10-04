@@ -77,6 +77,7 @@
 	            window.location.hash = target;
 	            $(document).on("scroll", onScroll);
 	        });
+	        $(".menu-trigger").toggleClass('active');
 	    });
 	});
 
