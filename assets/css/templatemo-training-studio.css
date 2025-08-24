@@ -147,7 +147,7 @@ body {
 
 .section-heading {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 80px;
   margin-bottom: 80px;
 }
 
@@ -726,6 +726,10 @@ subscribe
 ---------------------------------------------
 */
 
+#equipes {
+  text-align: center;
+}
+
 #call-to-action {
   padding: 120px 0px;
   background-image: url(../images/cta-bg.jpg);
@@ -1101,7 +1105,7 @@ contact
 }
 
 #contact-us {
-  margin-top: 140px;
+  margin-top: 40px;
 }
 
 #contact-us .container-fluid .col-lg-6 {
